@@ -1,0 +1,261 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    height: 80%;
+    width: 100%;
+    margin:0;
+}
+html{
+    padding: 0;
+    background-color:#f1f2f6;
+}
+footer{
+    background: #2f3542;
+    height: 250px;
+    width: 100%;
+    margin-top: 70px;
+}
+.logo{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.img_logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+header{
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(#747d8c,#2f3542);
+    text-align: left;
+}
+.brand{
+    margin: auto;
+}
+
+h1{
+    font-size: 6.5rem;
+    font-style: italic;
+    font-weight: 100;
+    color: #eccc68;
+    font-family: 'Dancing Script', cursive;
+}
+.menu{
+    height:70px;
+    border-top: 1px #2f3542 solid;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 150px;
+    background-color: #2f3542;
+    position: sticky;
+}
+.menu a{
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #ff6b81;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+.menu a:hover{
+    background-color:#ff6b81;
+    color:white;
+}
+.card{
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px darkgray;
+}
+.btn-pres{
+    font-size: 1.5rem;
+}
+.card-header{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.card-body{
+    padding: 15px;
+}
+
+.card-content{
+    width: auto;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+}
+.card-image{
+    background-image: url('http://domaine-las-capelas.e-monsite.com/medias/album/1040125-542963365740463-2049118139-o.jpg');
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+    width: 100%;
+}
+.card-image img{
+    height: 100%;
+    border-radius: inherit;
+}
+.card p{
+    color: #2f3542;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+.card h2{
+    color: #ff4757;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+.activity{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.separator{
+    background-color: #ff4757;
+    width: 90%;
+    height: 2px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.card-act{
+    width: 20%;
+    background-color: green;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 5px 5px 15px darkgray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+}
+.card-act h2{
+    color: white;
+    justify-self: center;
+}
+.info_button{
+    
+    align-self:flex-end;
+    margin: 15px;
+    margin-top: 30%;
+  
+}
+.btn{
+    background-color:#3742fa;
+    padding:10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color:white;
+    font-family: sans-serif;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #ff4757;
+}
+.titre{
+    text-align: center;
+    font-size: 8rem;
+    color: #2f3542;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+.card-act:hover{
+    background-color: rgb(47, 53, 66);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#card1{
+    background-image: url('http://domaine-las-capelas.e-monsite.com/medias/album/images/carcassonne5_zoom.jpg');
+}
+#card2{
+    background-image: url('http://domaine-las-capelas.e-monsite.com/medias/album/images/IMG_7740.jpg');
+}
+#card3{
+    background-image: url('http://domaine-las-capelas.e-monsite.com/medias/album/images/Vignes-dans-le-cognacais-en-charente-0.jpg');
+}
+#card4{
+    background-image: url('http://domaine-las-capelas.e-monsite.com/medias/images/massage-domaine-las-capelas-gites-en-aude-cathare.jpg?fx=r_200_132');
+}
+.resume{
+    width: 100%;
+    height: 500px;
+    background-color: #747d8c;
+    margin-top: 150px;
+}
+.row{
+    background-color: #eccc68;
+    height: auto;
+    font-size: 4rem;
+    padding: 40px 10% ;
+    color:#2f3542;
+    font-family: 'Dancing Script', cursive;
+    box-shadow: 5px 5px 15px darkgray;
+}
+.row p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.link{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.img_link{
+    margin: 30px;
+    width: 80px;
+    height: 80px;
+}
+.img_link:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #eccc68;
+    text-align: center;
+}
+footer p{
+    padding: 0;
+    margin: 0;
+}
+.reseaux{
+    margin-bottom: 20px;
+}
+.img_res{
+    width:40px;
+    height:40px;
+    cursor: pointer;
+}
+.legal a{
+    font-size: smaller;
+    color: #eccc68;
+    margin: 0 20px;
+}
+.legal a:hover{
+    text-decoration: none;
+}
+.legal{
+    margin-top: 30px;
+}
